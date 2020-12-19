@@ -57,7 +57,7 @@
 					<groupId>commons-collections</groupId>
 				</exclusion>
 			</exclusions>
-			<version>1.7.0</version>
+			<version>1.9.4</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-logging</groupId>
@@ -491,9 +491,9 @@
 								<phase>package</phase>
 								<configuration>
 									<target>
-										<chmod file="launch4j" perm="+x" />
-										<chmod file="bin/windres" perm="+x" />
-										<chmod file="bin/ld" perm="+x" />
+										<chmod file="launch4j" perm="+x"/>
+										<chmod file="bin/windres" perm="+x"/>
+										<chmod file="bin/ld" perm="+x"/>
 									</target>
 								</configuration>
 								<goals>
