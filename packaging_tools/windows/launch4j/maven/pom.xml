@@ -123,7 +123,7 @@
 		<dependency>
 			<groupId>com.jgoodies</groupId>
 			<artifactId>jgoodies-common</artifactId>
-			<version>1.7.0</version>
+			<version>1.8.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.jgoodies</groupId>
@@ -491,9 +491,9 @@
 								<phase>package</phase>
 								<configuration>
 									<target>
-										<chmod file="launch4j" perm="+x" />
-										<chmod file="bin/windres" perm="+x" />
-										<chmod file="bin/ld" perm="+x" />
+										<chmod file="launch4j" perm="+x"/>
+										<chmod file="bin/windres" perm="+x"/>
+										<chmod file="bin/ld" perm="+x"/>
 									</target>
 								</configuration>
 								<goals>
