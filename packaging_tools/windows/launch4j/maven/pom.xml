@@ -143,7 +143,7 @@
 		<dependency>
 			<groupId>org.apache.ant</groupId>
 			<artifactId>ant</artifactId>
-			<version>1.8.2</version>
+			<version>1.10.10</version>
 		</dependency>
 
 	</dependencies>
@@ -491,9 +491,9 @@
 								<phase>package</phase>
 								<configuration>
 									<target>
-										<chmod file="launch4j" perm="+x" />
-										<chmod file="bin/windres" perm="+x" />
-										<chmod file="bin/ld" perm="+x" />
+										<chmod file="launch4j" perm="+x"/>
+										<chmod file="bin/windres" perm="+x"/>
+										<chmod file="bin/ld" perm="+x"/>
 									</target>
 								</configuration>
 								<goals>
